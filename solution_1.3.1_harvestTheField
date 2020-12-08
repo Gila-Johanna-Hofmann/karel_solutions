@@ -1,0 +1,32 @@
+void harvestTheField()
+{
+    harvestTwoRows();
+    turnAround();
+    harvestTwoRows();    
+}
+
+
+void harvestARow() {
+    repeat(4) {
+        moveForward();
+        pickBeeper();
+        turnRight();
+        moveForward();
+        turnLeft();
+    }
+}
+
+void turnOnTopOfField() {
+    repeat (2) {
+        repeat(2) {
+            moveForward();
+        }
+        turnLeft();
+    }
+}
+
+void harvestTwoRows() {
+    harvestARow();
+    turnOnTopOfField();
+    harvestARow();
+}

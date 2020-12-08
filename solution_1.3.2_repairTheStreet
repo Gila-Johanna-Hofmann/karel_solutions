@@ -1,0 +1,20 @@
+void repairTheStreet() {
+    repeat (9) {
+        repairOneHole();
+    }
+}
+
+void repairOneHole() {
+    if (!rightIsClear()) {
+        moveForward();
+    }
+    else {
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+    }
+}

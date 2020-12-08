@@ -4,6 +4,8 @@ Karel The Robot is a simple teaching environment for imperative programming basi
 
 It's one of the tools I currently use to practise my logic and OOP-skills.
 
+I'm super new to coding! Please keep that in mind.
+
 You can check out and download Karel [here.](https://github.com/fredoverflow/karel)
 
 Find my tasks here:

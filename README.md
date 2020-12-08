@@ -1,4 +1,4 @@
-# My solutions to Karel The Robots tasks.
+# My solutions for Karel The Robots tasks
 
 Karel The Robot is a simple teaching environment for imperative programming basics.
 

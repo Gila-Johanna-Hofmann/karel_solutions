@@ -1,0 +1,73 @@
+void cleanTheRoom() {
+    cleanMostOfTheRoom();
+    cleanRestOfTheRoom();
+    
+}
+
+void cleanRestOfTheRoom() {
+    cleanOneRow();
+    turnToLeft();
+    cleanOneRow();
+    if (onBeeper()) {
+        pickBeeper();
+    }
+    else {
+        
+    }
+}
+
+void cleanMostOfTheRoom() {
+    repeat(4) {
+        cleanTwoRows();
+    }
+}
+
+void cleanTwoRows() {
+    cleanOneRow();
+    turnToLeft();
+    cleanOneRow();
+    turnToRight();
+    
+}
+
+void cleanOneRow() {
+    repeat(9) {
+        if (onBeeper()) {
+            pickBeeper();
+            moveForward();
+        }
+        else {
+            moveForward();
+        }
+    }
+}
+
+void turnToLeft() {
+    if (onBeeper()) {
+        pickBeeper();
+        turnLeft();
+        moveForward();
+    }
+    else {
+        turnLeft();
+        moveForward();  
+    }
+    turnLeft();
+    
+}
+
+void turnToRight() {
+    if (onBeeper()) {
+        pickBeeper();
+        turnRight();
+        moveForward();
+    }
+    else {
+        turnRight();
+        moveForward();  
+    }
+    turnRight();
+}
+
+
+

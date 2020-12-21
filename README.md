@@ -17,3 +17,5 @@ Find my tasks here:
 [1.3.3 cleanTheRoom](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.3.3_cleanTheRoom)
 
 [1.3.4 tileTheFloor](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.3.4_tileTheFloor)
+
+[1.4.1 stealOlympicFire](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.4.1_stealOlympicFire)

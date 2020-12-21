@@ -15,3 +15,5 @@ Find my tasks here:
 [1.3.2. repairTheStreet](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.3.2_repairTheStreet)
 
 [1.3.3 cleanTheRoom](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.3.3_cleanTheRoom)
+
+[1.3.4 tileTheFloor](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.3.4_tileTheFloor)

@@ -1,0 +1,21 @@
+void stealOlympicFire() {
+    
+    repeat (20) {
+      if (!onBeeper()) {
+        if(frontIsClear()) {
+            moveForward();
+        }
+        else {
+            turnLeft();
+            moveForward();
+            turnRight();
+        }
+    }
+    else {
+        pickBeeper();
+        moveForward();
+        turnRight();
+    }  
+    }
+    
+}

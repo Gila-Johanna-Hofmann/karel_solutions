@@ -15,3 +15,5 @@ Find my solutions here (please keep in mind I'm super new to coding):
 [1.3.4 tileTheFloor](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.3.4_tileTheFloor)
 
 [1.4.1 stealOlympicFire](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.4.1_stealOlympicFire)
+
+[1.4.2 removeTheTiles](https://github.com/Gila-Johanna-Hofmann/karel_solutions/blob/main/solution_1.4.2_removeTheTiles)
